@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebChucK Lite</title>
+</head>
+
+<body>
+    <h1>WebChucK Lite!</h1>
+    <button id="mainButton">Start WebChucK</button>
+    <button id="stopButton">Stop</button>
+
+    <!-- Connect Web Audio API, Connect webchuck.js and webchuck.wasm -->
+    <script> var whereIsChuck = "https://cdn.jsdelivr.net/gh/ccrma/webchuck/src"; </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ccrma/webchuck/src/webchuck_host.js"></script>
+
+    <!-- Your scripts here! -->
+    <script type="text/javascript" src="./connect.js"></script> <!-- Communicate with WebChucK -->
+    <script type="text/javascript" src="./main.js"></script> <!-- Main -->
+</body>
+
+</html>
