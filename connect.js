@@ -35,7 +35,7 @@ function syncGlobals()
  */
 function sync()
 {
-    syncID = setInterval(syncGlobals, 1000);
+    syncID = setInterval(syncGlobals, 500);
 }
 
 /**

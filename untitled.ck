@@ -15,5 +15,5 @@ while (true)
     Math.random2(0, 100) => MY_INT;
     MY_FLOAT => osc.gain;
     440 + MY_INT => osc.freq;
-    1::second => now;
+    0.5::second => now;
 }
