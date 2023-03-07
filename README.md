@@ -22,4 +22,6 @@ You can go to this server by going to the URL `localhost:8000` in your web brows
 
 ## WebChucK
 
-To learn more about what you can do with WebChucK, check out WebChucK IDE: [https://chuck.stanford.edu/webchuck](https://chuck.stanford.edu/webchuck)
+Check out the WebChucK Github: [https://github.com/ccrma/webchuck](https://github.com/ccrma/webchuck)
+
+To check out WebChucK in action, try WebChucK IDE: [https://chuck.stanford.edu/webchuck](https://chuck.stanford.edu/webchuck)

@@ -42,9 +42,6 @@ mainButton.addEventListener('click', async () =>
     
     // Start syncing globals
     sync();
-
-    // Update WebChucK button
-    mainButton.innerHTML = "Play";
 });
 
 // STOP BUTTON
